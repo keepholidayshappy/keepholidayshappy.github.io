@@ -1,0 +1,88 @@
+html {
+
+}
+body {
+	background: rgba(233,201,159,1);
+	background: -moz-linear-gradient(top, rgba(233,201,159,1) 0%, rgba(243,217,179,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(233,201,159,1)), color-stop(100%, rgba(243,217,179,1)));
+	background: -webkit-linear-gradient(top, rgba(233,201,159,1) 0%, rgba(243,217,179,1) 100%);
+	background: -o-linear-gradient(top, rgba(233,201,159,1) 0%, rgba(243,217,179,1) 100%);
+	background: -ms-linear-gradient(top, rgba(233,201,159,1) 0%, rgba(243,217,179,1) 100%);
+	background: linear-gradient(to bottom, rgba(233,201,159,1) 0%, rgba(243,217,179,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9c99f', endColorstr='#f3d9b3', GradientType=0 );
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Lora', serif;
+}
+
+.intro {
+	text-align: center;
+}
+	.page-title {
+		font-family: 'Chela One', cursive;
+		font-size: 52px;
+		text-align: center;
+	}
+	.intro-description {
+		width: 80%;
+		margin: auto;
+		font-size: 18px;
+	}
+	.create-proposal {
+		margin: 20px 0;
+	}
+
+
+.template-creator {
+	text-align: center;
+}
+	.template-options {
+		margin: 20px 0 10px;
+	}
+
+	.proposal-container {
+		width: 80%;
+		margin: auto;
+	}
+		.proposal {
+			background-color: #fff;
+			padding: 10%;
+		}
+			.proposal-text {
+				font-family: 'Lora', serif;
+				font-style: italic;
+				font-size: 24px;
+			}
+	.send-proposal {
+		margin: 20px 0;
+	}
+
+.social-sharing {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
