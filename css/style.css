@@ -39,6 +39,7 @@ a.btn:visited {
 		font-family: 'Chela One', cursive;
 		font-size: 52px;
 		text-align: center;
+		letter-spacing: 0.3px;
 	}
 	.intro-description {
 		width: 80%;
