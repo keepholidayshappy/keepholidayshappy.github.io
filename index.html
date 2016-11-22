@@ -3,6 +3,10 @@
 <head>
 	<title>Keep Holidays Happy</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Thanksgiving, politics, keep holidays happy, keep the holidays happy, trump, clinton, sanders, bern, politics, political, how to survive thanksgiving, survivalguidetothanksgiving, survival guide to thanksgiving">
+	<meta name="description" content="Prevent a political throwdown by sending a proposal to your family to avoid all political discussions at the Thanksgiving dinner table.">
+
+
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
@@ -25,7 +29,7 @@
 	<div class="intro">
 		<h1 class="page-title"> Keep The Holidays Happy </h1>
 		<p class="intro-description">
-			Stressed out about the political clash that will inevitably disrupt your thanksgiving dinner? <br />Lets prevent that from happening. Before Thursday, send a proposal to your family/friends and make it clear to them that you want to avoid any political discussion at the dinner table.
+			Stressed out about the political clash that will inevitably disrupt your thanksgiving dinner? <br />Let's prevent that from happening. Before Thursday, send a proposal to your family/friends and make it clear to them that you want to avoid any political discussion at the dinner table.
 		</p>
 		<a class="btn btn-default btn-lg create-proposal"> Choose proposal </a>
 	</div>
@@ -55,18 +59,18 @@
 			<p> Select a proposal below that you think will get through to your friends and family. After selecting a proposal template, you can edit and send the proposal to your friends and family using Google Forms.</p>
 		</div>
 		<div class="btn-group template-options hidden-xs" role="group" aria-label="...">
-		  <button type="button" class="btn btn-default template-option active" id="template-4">No Trump at My Table</button>
-		  <button type="button" class="btn btn-default template-option" id="template-1">No Need for World War 3</button>
-		  <button type="button" class="btn btn-default template-option" id="template-2">Keep Your Feelings on Lock</button>
-		  <button type="button" class="btn btn-default template-option" id="template-3">Talk About Yourself Instead</button>
+		  <button type="button" class="btn btn-default template-option active" id="template-1">No Trump at My Table</button>
+		  <button type="button" class="btn btn-default template-option" id="template-2">No Need for World War 3</button>
+		  <button type="button" class="btn btn-default template-option" id="template-3">Keep Your Feelings on Lock</button>
+		  <button type="button" class="btn btn-default template-option" id="template-4">Talk About Yourself Instead</button>
 
 		</div>
 
 		<select class="btn btn-default form-control visible-xs template-options-select">
-			<option value="template-4">No Trump at My Table</option>
-			<option value="template-1">No Need for World War 3</option>
-			<option value="template-2">Keep Your Feelings on Lock</option>
-			<option value="template-3">Talk About Yourself Instead</option>
+			<option value="template-1">No Trump at My Table</option>
+			<option value="template-2">No Need for World War 3</option>
+			<option value="template-3">Keep Your Feelings on Lock</option>
+			<option value="template-4">Talk About Yourself Instead</option>
 		</select>
 
 		<div class="proposal-container">
@@ -119,6 +123,30 @@
   ga('send', 'pageview');
 
 </script>
+
+<!-- Google Analytics Events Tracking --> 
+<script>
+$( document ).ready(function() {
+  $('.send-proposal').on('click', function() {
+    ga('send', 'event', 'sendProposal');
+  });
+  $('#template-1').on('click', function() {
+    ga('send', 'event', 'template', '1');
+  });
+  $('#template-2').on('click', function() {
+    ga('send', 'event', 'template', '2');
+  });
+  $('#template-3').on('click', function() {
+    ga('send', 'event', 'template', '3');
+  });
+  $('#template-4').on('click', function() {
+    ga('send', 'event', 'template', '4');
+  });
+});
+</script>
+
+
+
 
 </body>
 </html>
