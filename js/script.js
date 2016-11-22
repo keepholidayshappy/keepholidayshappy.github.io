@@ -2,29 +2,29 @@
 $( document ).ready(function() {
 
 	$("#template-1").on( "click", function() {
-		$('.send-proposal').attr('href','http://google.com');
-		$('.template-option').removeClass('active');
-		$(this).addClass('active');
-		$('.proposal-text').text('Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.');
-	});
-	$("#template-2").on( "click", function() {
 		$('.send-proposal').attr('href','http://mashable.com');
 		$('.template-option').removeClass('active');
 		$(this).addClass('active');
-		$('.proposal-text').text('Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum.');
+		$('.proposal-text').html('I love you so listen, <br />Listen very carefully, <br />Keep your shit together, <br />For the sake of our family. <br /><br />The elections are over, <br />We didn’t see eye to eye. <br />So it’s better if we focus <br />On turkey and pie. <br /><br />If only for a day, <br />Let’s hold our tongues near, <br />Lest some of us stop talking <br />Until the next election year. <br /><br />Watch your mouth and hold your drinks, <br />No need for World War 3, <br />What I’m trying to say is, please, <br />DON’T TALK ABOUT POLITICS AROUND ME.');
+	});
+	$("#template-2").on( "click", function() {
+		$('.send-proposal').attr('href','http://google.com');
+		$('.template-option').removeClass('active');
+		$(this).addClass('active');
+		$('.proposal-text').html("In this season of gratitude (and politics), <br /> Let us all agree:<br /><br /> I love you all dearly, <br /> But indulge me one thing <br /> To our holiday celebrations <br /> Do not “your politics” bring. <br /><br /> No Trumping over Turkey, <br /> Let’s Baruch and not Barack. <br /> No matter the yearn, <br /> Resist the Bern, <br /> And keep your feelings on lock. <br /><br /> Keep the Clintons out of Christmas, <br /> As we decorate the tree <br /> No elephants at tables, <br /> No donkeys outside stables, <br /> And a joyous occasion this will still be. <br />");
 	});
 	$("#template-3").on( "click", function() {
 		$('.send-proposal').attr('href','http://producthunt.com');
 		$('.template-option').removeClass('active');
 		$(this).addClass('active');
-		$('.proposal-text').text('Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.');
+		$('.proposal-text').html('Over the course of the past two years, America has been ripped in two by a raucous political season, which culminated in the most insanely toxic and heated environment in a very long time. So, this Thanksgiving, I think we should wipe the slate clean -- just like Hillary deleted her emails -- because it would be “WRONG” or “NOT NICE!” to quote the President-Elect, to generalize about each other! <br /><br /> There’s so many other things going on in each others’ and our own lives, let’s just talk about those things and skip the political banter this Turkey Day!');
 
 	});
 	$("#template-4").on( "click", function() {
 		$('.send-proposal').attr('href','http://sidebar.io');
 		$('.template-option').removeClass('active');
 		$(this).addClass('active');
-		$('.proposal-text').text('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.');
+		$('.proposal-text').html('Our cranberry sauce is red <br /> And our fat turkey is brown <br /> No politics at dinner, <br /> I want all smiles, no frowns<br /><br /> The pilgrims and the indians <br/ > had a nice holiday meal <br /> don’t talk trump at my table <br /> Or shit is going to get real');
 	});
 	$("#template-5").on( "click", function() {
 		$('.send-proposal').attr('href','http://facebook.com');
@@ -42,8 +42,5 @@ $( document ).ready(function() {
         }, 1000);
 
 	});
-
-
-
 
 });
