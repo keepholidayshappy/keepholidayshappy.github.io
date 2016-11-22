@@ -32,4 +32,18 @@ $( document ).ready(function() {
 		$(this).addClass('active');
 		$('.proposal-text').text('Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.');
 	});
+
+
+
+	$('.create-proposal').on("click", function() {
+		var target = $('.template-creator')
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+
+	});
+
+
+
+
 });

@@ -2,14 +2,7 @@ html {
 
 }
 body {
-	background: rgba(233,201,159,1);
-	background: -moz-linear-gradient(top, rgba(233,201,159,1) 0%, rgba(243,217,179,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(233,201,159,1)), color-stop(100%, rgba(243,217,179,1)));
-	background: -webkit-linear-gradient(top, rgba(233,201,159,1) 0%, rgba(243,217,179,1) 100%);
-	background: -o-linear-gradient(top, rgba(233,201,159,1) 0%, rgba(243,217,179,1) 100%);
-	background: -ms-linear-gradient(top, rgba(233,201,159,1) 0%, rgba(243,217,179,1) 100%);
-	background: linear-gradient(to bottom, rgba(233,201,159,1) 0%, rgba(243,217,179,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9c99f', endColorstr='#f3d9b3', GradientType=0 );
+	background-color: #94768f;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -17,8 +10,30 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Lora', serif;
 }
 
+a {
+	color: #00bcd4;
+}
+a:hover,
+a:focus {
+	color: #00ACC1;
+}
+a.btn {
+	background-color: #00bcd4;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+a.btn:hover,
+a.btn:focus,
+a.btn:active,
+a.btn:visited {
+	color: #fff !important;
+	background-color: #00ACC1 !important;
+}
+
 .intro {
 	text-align: center;
+	color: #fff;
 }
 	.page-title {
 		font-family: 'Chela One', cursive;
@@ -34,14 +49,94 @@ h1,h2,h3,h4,h5,h6 {
 		margin: 20px 0;
 	}
 
+.thanksgiving-table {
+	margin-top: 200px;
+}
+	.table {
+		background-color: #FDF9DE;
+		padding-top: 30px;
+		padding-bottom: 100px;
+		position: relative;
+	}
+		.stripe {
+			background-color: #F5E8BC;
+			margin: 15px 0;
+		}
+		.stripe.lg {
+			height: 30px;
+		}
+		.stripe.md {
+			height: 22px;
+		}
+		.stripe.sm {
+			height: 15px;
+		}
+		.food {
+			position: absolute;
+			top: 0px;
+		}
+		.food.gravy {
+			top: -65px;
+			right: 30%;
+		}
+		.food.marshmellows {
+			top: -45px;
+			left: 15%;
+		}
+		.food.potatoes {
+			top: -93px;
+			right: 20%;
+		}
+		.food.pie {
+			top: -77px;
+			right: 5%;
+		}
+		.food.cranberry {
+			top: -93px;
+			left: 5%;
+		}
+		.food.turkey {
+			top: -145px;
+			left: calc(50% - 161px);
+		}
+		.food.wine {
+			top: -185px;
+			left: 30%;
+		}
+		@media (max-width: 768px) {
+			.food.wine {
+				left: 2%;
+			}
+			.food.pie {
+				right: 2%;
+			}
+		}
 
 .template-creator {
 	text-align: center;
+	min-height: 600px;
 }
 	.template-options {
 		margin: 20px 0 10px;
 	}
-
+		.template-options .template-option {
+			color: #00bcd4;
+		}
+		.template-options .template-option.active,
+		.template-options .template-option:hover,
+		.template-options .template-option:active,
+		.template-options .template-option:focus {
+			background-color: #00bcd4;
+			color: #fff;
+			text-shadow: none;
+			border-color: #00bcd4;
+		}
+		@media (max-width: 768px) {
+			.template-options .template-option {
+				font-size: 12px;
+				padding: 4px 6px;
+			}
+		}
 	.proposal-container {
 		width: 80%;
 		margin: auto;
@@ -49,6 +144,7 @@ h1,h2,h3,h4,h5,h6 {
 		.proposal {
 			background-color: #fff;
 			padding: 10%;
+			box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
 		}
 			.proposal-text {
 				font-family: 'Lora', serif;
