@@ -4,6 +4,7 @@ html {
 body {
 	background-color: #3c225f;
 	font-family: 'Roboto', sans-serif;
+	color: #fff;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -52,6 +53,15 @@ a.btn:visited {
 	.create-proposal {
 		margin: 20px 0;
 	}
+
+@media (max-width: 768px) {
+	.page-title {
+		font-size: 34px;
+	}
+	.intro-description {
+		width: 80%;
+	}
+}
 
 .thanksgiving-table {
 	margin-top: 200px;
@@ -117,10 +127,30 @@ a.btn:visited {
 		}
 
 .template-creator {
+	padding-top: 20px;
+	margin-top: 20px;
 	text-align: center;
 }
+
+	.how-to h3 {
+		font-family: 'Chela One', cursive;
+		font-size: 36px;
+		letter-spacing: 0.3px;
+	}
+	.how-to p {
+	    padding-top: 10px;
+	    width: 60%;
+	    margin: auto;
+	    font-size: 16px;
+	    line-height: 24px;
+	    padding-bottom: 20px;
+	}
 	.template-options {
 		margin: 20px 0 10px;
+	}
+	.template-options-select {
+		width: auto;
+		margin: 20px auto 10px;
 	}
 		.template-options .template-option {
 			color: #00bcd4;
@@ -154,10 +184,23 @@ a.btn:visited {
 				font-style: italic;
 				font-size: 22px;
 				margin-bottom: 0;
+				color: #333;
 			}
 	.send-proposal {
 		margin: 20px 0;
 	}
+
+@media (max-width: 768px) {
+	.proposal-container {
+		width: 90%;
+	}
+		.proposal {
+			padding: 2%;
+		}
+			.proposal-text {
+				font-size: 16px;
+			}
+}
 
 .social {
 	text-align: center;
