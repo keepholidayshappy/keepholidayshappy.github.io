@@ -1,10 +1,11 @@
 html {
-
+	overflow-x: hidden;
 }
 body {
 	background-color: #3c225f;
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
+	overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -59,7 +60,10 @@ a.btn:visited {
 		font-size: 34px;
 	}
 	.intro-description {
-		width: 80%;
+		width: 90%;
+		font-size: 16px;
+		line-height: 24px;
+		padding-top: 10px;
 	}
 }
 
@@ -131,7 +135,6 @@ a.btn:visited {
 	margin-top: 20px;
 	text-align: center;
 }
-
 	.how-to h3 {
 		font-family: 'Chela One', cursive;
 		font-size: 36px;
@@ -192,6 +195,19 @@ a.btn:visited {
 	}
 
 @media (max-width: 768px) {
+
+	.how-to h3 {
+		font-size: 34px;
+	}
+	.how-to p {
+		width: 90%;
+		font-size: 16px;
+		line-height: 24px;
+		padding-top: 10px;
+	}
+
+
+
 	.proposal-container {
 		width: 90%;
 	}
@@ -208,7 +224,7 @@ a.btn:visited {
 	color: #fff;
 }
 	.social-buttons {
-		margin: 40px 0 80px;
+		margin: 20px 0 40px;
 	}
 	.social-buttons a:hover,
 	.social-buttons a:focus {
@@ -218,6 +234,9 @@ a.btn:visited {
 			font-size: 26px;
 			margin: 0 5px;
 		}
+	.created-by {
+		font-size: 12px;
+	}
 
 
 
