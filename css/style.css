@@ -157,6 +157,7 @@ a.btn:visited {
 	}
 		.template-options .template-option {
 			color: #00bcd4;
+			font-weight: bold;
 		}
 		.template-options .template-option.active,
 		.template-options .template-option:hover,
