@@ -30,7 +30,7 @@ $( document ).ready(function() {
     	var templateNum=$(this).val();
 		if (templateNum == 'template-1') {
 			$('.send-proposal').attr('href','https://docs.google.com/forms/d/1bFd7-joDVFn5tuTBQRCb2o7Xa4P1SN6zsG35VJweWZs/copy');
-			$('.proposal-text').html('Our cranberry sauce is red <br /> And our fat turkey is brown <br /> No politics at dinner, <br /> I want all smiles, no frowns<br /><br /> The pilgrims and the indians <br/ > had a nice holiday meal <br /> don’t talk trump at my table <br /> Or shit is going to get real');
+			$('.proposal-text').html('Our cranberry sauce is red <br /> And our fat turkey is brown <br /> No politics at dinner, <br /> I want all smiles, no frowns<br /><br /> The pilgrims and the indians <br/ > Had a nice holiday meal <br /> Don’t talk trump at my table <br /> Or shit is going to get real');
 		}
     	if (templateNum == 'template-2') {
     		console.log('temp1');
